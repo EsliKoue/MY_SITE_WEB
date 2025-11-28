@@ -1,29 +1,243 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY FIRST SITE</title>
+    <title>RiseUp Educ - Accompagnement scolaire et soutien personnalisé</title>
+    <meta name="description" content="RiseUp Educ accompagne les élèves du primaire au lycée avec un suivi personnalisé, des programmes adaptés et un lien direct avec les parents.">
     <link rel="stylesheet" href="style.css">
-    </head>
+</head>
 
-    <body>
-        <header>
-            <h1>Bienvenue sur notre page</h1>
-            <p>Ce site est notre page web</p>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#top" class="logo">
+                <img src="logo-riseup-educ.png" alt="Logo RiseUp Educ" class="logo-img">
+                <span class="logo-text">RiseUp <span>Educ</span></span>
+            </a>
+            <nav class="main-nav">
+                <a href="#programmes">Programmes</a>
+                <a href="#methode">Méthode</a>
+                <a href="#temoignages">Témoignages</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact" class="btn-nav">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-        </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <h1 id="title">Fais progresser ton enfant avec RiseUp Educ</h1>
+                    <p class="hero-subtitle">Accompagnement scolaire personnalisé, suivi régulier et communication transparente avec les parents.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">Prendre un rendez-vous</a>
+                        <a href="#programmes" class="btn-secondary">Découvrir les programmes</a>
+                    </div>
+                </div>
+                <div class="hero-highlight">
+                    <div class="stat-card">
+                        <h3>+120</h3>
+                        <p>élèves accompagnés avec succès</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>98%</h3>
+                        <p>de parents satisfaits</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Du primaire au lycée</h3>
+                        <p>Programmes adaptés à chaque niveau</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section class="card">
-        <h2>Accueil</h2>
-        <h2>Presentation</h3>
-        <h2>Service</h2>
-        <h2>Ressource</h2>
-    </section>
-        
-    </body>
+        <section class="promo-section">
+            <div class="container promo-grid">
+                <div class="promo-left">
+                    <img src="flyer-riseup-educ.jpg" alt="Flyer RiseUp Educ - Soutien scolaire à domicile" class="promo-image">
+                    <div class="promo-badge">Rise Up Educ</div>
+                    <p class="promo-slogan">Apprendre pour s’élever</p>
+                    <h2 class="promo-title">Soutien scolaire à domicile</h2>
+                    <p class="promo-year">Année scolaire 2025–2026</p>
+                    <p class="promo-text">Nous offrons des cours de soutien scolaire adaptés du CP1 à la Terminale, pour aider vos enfants à atteindre l’excellence académique.</p>
+                </div>
+                <div class="promo-right">
+                    <div class="promo-columns">
+                    <div class="promo-column">
+                            <h3>Ce qui fait la différence</h3>
+                            <ul class="promo-list">
+                                <li class="band band-green">Enseignants qualifiés et passionnés</li>
+                                <li class="band band-red">Horaires flexibles et adaptés</li>
+                                <li class="band band-blue">Approche pédagogique personnalisée</li>
+                                <li class="band band-yellow">Tarifs abordables pour tous les budgets</li>
+                            </ul>
+                            <p class="promo-bonus">Bonus : cours d’anglais gratuits pour les élèves du primaire.</p>
+                        </div>
+                        <div class="promo-column">
+                            <h3>Système scolaire</h3>
+                            <ul class="promo-list promo-system">
+                                <li>Français</li>
+                                <li>Ivoirien</li>
+                            </ul>
+                            <p class="promo-baseline">Avec RiseUp Educ, chaque enfant a les moyens de réussir. Rejoignez‑nous aujourd’hui !</p>
+                        </div>
+                    </div>
+                    <div class="promo-contact-bar">
+                        <span>Contactez‑nous au</span>
+                        <strong>0585828987 / 0585251206</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="programmes" class="section">
+            <div class="container">
+                <h2>Nos programmes scolaires</h2>
+                <p class="section-intro">Des parcours structurés pour accompagner chaque élève selon son niveau, son rythme et ses objectifs.</p>
+                <div class="program-grid">
+                    <article class="card">
+                        <h3>Primaire</h3>
+                        <p>Renforcer les bases en lecture, écriture et mathématiques avec une approche ludique et bienveillante.</p>
+                        <ul>
+                            <li>Remise à niveau en français et mathématiques</li>
+                            <li>Ateliers de concentration et d’organisation</li>
+                            <li>Suivi régulier avec compte-rendu aux parents</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Collège</h3>
+                        <p>Aider l’élève à prendre confiance, structurer son travail et consolider les matières clés.</p>
+                        <ul>
+                            <li>Maths, français, langues, sciences</li>
+                            <li>Méthodologie : apprendre à apprendre</li>
+                            <li>Préparation aux contrôles et examens</li>
+                        </ul>
+                    </article>
+                    <article class="card">
+                        <h3>Lycée</h3>
+                        <p>Préparer les élèves aux examens et à l’orientation avec un suivi personnalisé.</p>
+                        <ul>
+                            <li>Préparation brevet et baccalauréat</li>
+                            <li>Aide à l’orientation et aux choix de filière</li>
+                            <li>Accompagnement continu ou intensif</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
 
+        <section id="methode" class="section section-alt">
+            <div class="container methode-grid">
+                <div>
+                    <h2>Une méthode claire et structurée</h2>
+                    <p class="section-intro">RiseUp Educ place l’élève et sa progression au centre, tout en impliquant les parents à chaque étape.</p>
+                    <ol class="steps-list">
+                        <li><strong>Bilan personnalisé</strong> : compréhension du niveau, des difficultés et des objectifs.</li>
+                        <li><strong>Plan d’accompagnement</strong> : définition d’un programme adapté (séances, matières, objectifs).</li>
+                        <li><strong>Suivi régulier</strong> : séances hebdomadaires, exercices ciblés et retours précis.</li>
+                        <li><strong>Compte-rendu parents</strong> : synthèse des progrès et recommandations.</li>
+                    </ol>
+                </div>
+                <div class="interactive-card">
+                    <h3>Zone interactive</h3>
+                    <p>Essaie les boutons ci-dessous pour voir un exemple de petit dynamisme JavaScript sur le site.</p>
+                    <button id="btnChangeText">Changer le titre principal</button>
+                    <div class="message-block">
+                        <p id="message">Clique sur le bouton ci-dessous pour afficher un message…</p>
+                        <button id="btnMessage">Afficher un message</button>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="temoignages" class="section">
+            <div class="container">
+                <h2>Ils nous font confiance</h2>
+                <div class="testimonials-grid">
+                    <article class="testimonial">
+                        <p>« Grâce à RiseUp Educ, notre fille a repris confiance en maths et a gagné 3 points de moyenne en un trimestre. »</p>
+                        <span class="author">– Parent d’élève de 4e</span>
+                    </article>
+                    <article class="testimonial">
+                        <p>« Les séances sont claires, structurées et motivantes. Mon fils attend maintenant les cours avec plaisir. »</p>
+                        <span class="author">– Parent d’élève de CM2</span>
+                    </article>
+                    <article class="testimonial">
+                        <p>« L’accompagnement pour le bac m’a permis d’organiser mes révisions et d’atteindre mes objectifs. »</p>
+                        <span class="author">– Élève de Terminale</span>
+                    </article>
+                </div>
+            </div>
+        </section>
 
- 
+        <section id="faq" class="section section-alt">
+            <div class="container">
+                <h2>Questions fréquentes</h2>
+                <div class="faq-list">
+                    <details>
+                        <summary>Où se déroulent les séances ?</summary>
+                        <p>Les séances peuvent se faire en présentiel ou en ligne selon votre situation et vos préférences.</p>
+                    </details>
+                    <details>
+                        <summary>Combien de temps dure un accompagnement ?</summary>
+                        <p>Nous proposons des accompagnements ponctuels (préparation d’examen) ou sur l’année scolaire, avec ajustement possible.</p>
+                    </details>
+                    <details>
+                        <summary>Comment suivre la progression de mon enfant ?</summary>
+                        <p>Vous recevez régulièrement un retour structuré sur les progrès, les points forts et les axes d’amélioration.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container contact-grid">
+                <div>
+                    <h2>Contactez RiseUp Educ</h2>
+                    <p class="section-intro">Expliquez-nous la situation de votre enfant, et nous vous proposerons un plan d’accompagnement adapté.</p>
+                    <ul class="contact-infos">
+                        <li><strong>Email :</strong>riseup@gmail.com </li>
+                        <li><strong>Téléphone :</strong> +225 05 95 36 90 90</li>
+                        <li><strong>Horaires :</strong> Lundi – Samedi, 9h – 19h</li>
+                    </ul>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="parentName">Votre nom</label>
+                        <input type="text" id="parentName" name="parentName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Votre email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="studentLevel">Niveau de votre enfant</label>
+                        <select id="studentLevel" name="studentLevel" required>
+                            <option value="">Sélectionnez un niveau</option>
+                            <option value="primaire">Primaire</option>
+                            <option value="college">Collège</option>
+                            <option value="lycee">Lycée</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="messageParent">Message</label>
+                        <textarea id="messageParent" name="messageParent" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Envoyer ma demande</button>
+                    <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; <span id="year"></span> RiseUp Educ. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
